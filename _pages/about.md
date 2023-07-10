@@ -8,16 +8,6 @@ redirect_from:
   - /about.html
 ---
 
----
-permalink: /
-title: "About me"
-excerpt: "About me"
-author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
----
-
 I obtained Bachelor in Robotics Engineering at the University of Engineering and Technology - Vietnam National
 University. My research focuses on Machine learning and Deep learning foundations about probabilistic models. I am also interested in human perception modeling for computer.
 
