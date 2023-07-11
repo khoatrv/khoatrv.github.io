@@ -16,7 +16,7 @@ University. My research focuses on Machine learning and Deep learning foundation
 **AI Engineer** at **EASTGATE Software** (2020-2023)
 * Topic: Object detection, OCR, Image Enhancement, Face Recognition, Name Entity Recognitiion, Information Extraction.
 
-* **AI Engineer Intern** at **AIGO - We make AI works** (2020)
+**AI Engineer Intern** at **AIGO - We make AI works** (2020)
 * Topic: Object detection, OCR, Image Classification.
 
 ## PUBLICATIONS
