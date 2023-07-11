@@ -11,6 +11,12 @@ redirect_from:
 I obtained Bachelor in Robotics Engineering at the University of Engineering and Technology - Vietnam National
 University. My research focuses on Machine learning and Deep learning foundations about probabilistic models. I am also interested in human perception modeling for computer.
 
+## WORK EXPERIENCES
+
+* **AI Engineer** at **EASTGATE Software** (2020-2023)
+
+* **AI Engineer Intern** at **AIGO - We make AI works** (2020)
+
 ## PUBLICATIONS
 
 * **Gaussian Mixture Model and Bayesian Convolution Neural Network for abnormal musculoskeletal radiographs classification**.
