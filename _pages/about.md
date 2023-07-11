@@ -13,9 +13,11 @@ University. My research focuses on Machine learning and Deep learning foundation
 
 ## WORK EXPERIENCES
 
-* **AI Engineer** at **EASTGATE Software** (2020-2023)
+**AI Engineer** at **EASTGATE Software** (2020-2023)
+* Topic: Object detection, OCR, Image Enhancement, Face Recognition, Name Entity Recognitiion, Information Extraction.
 
 * **AI Engineer Intern** at **AIGO - We make AI works** (2020)
+* Topic: Object detection, OCR, Image Classification.
 
 ## PUBLICATIONS
 
@@ -27,7 +29,7 @@ University. My research focuses on Machine learning and Deep learning foundation
   * **Khoa Tran Van**, Vinh Dinh Quang, Phuc Nguyen Hong, Narayan Debnath C, Tuan-Duc Nguyen, Chang Wook Ahn.
   * The 9th International Conference on Smart Media and Applications (SMA 2020).
 
-## WORK EXPERIENCES
+## RESEARCH EXPERIENCES
 
 **Research Assistant** at **Robotics-AI Lab**
 * Supervisor: [Dr. Hoang Van Xiem](https://scholar.google.com/citations?user=D9cu8KIAAAAJ&hl=en)
