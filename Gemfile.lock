@@ -246,7 +246,6 @@ DEPENDENCIES
   jekyll-minifier
   jekyll-paginate-v2
   jekyll-regex-replace
-  jekyll-sass-converter (~> 3.0)
   jekyll-scholar
   jekyll-sitemap
   jekyll-tabs
