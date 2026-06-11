@@ -12,20 +12,20 @@
 
 [comment]: <> (children:)
 
-[comment]: <> (  - title: publications)
+[comment]: <> ( - title: publications)
 
-[comment]: <> (    permalink: /publications/)
+[comment]: <> ( permalink: /publications/)
 
-[comment]: <> (  - title: divider)
+[comment]: <> ( - title: divider)
 
-[comment]: <> (  - title: projects)
+[comment]: <> ( - title: projects)
 
-[comment]: <> (    permalink: /projects/)
+[comment]: <> ( permalink: /projects/)
 
-[comment]: <> (  - title: divider)
+[comment]: <> ( - title: divider)
 
-[comment]: <> (  - title: blog)
+[comment]: <> ( - title: blog)
 
-[comment]: <> (    permalink: /blog/)
+[comment]: <> ( permalink: /blog/)
 
 [comment]: <> (---)
