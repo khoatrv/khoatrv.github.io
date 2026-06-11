@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: 
+subtitle:
 
 profile:
   align: right
@@ -26,13 +26,13 @@ I’m a second-year PhD candidate in Computer Science at SKKU, advised by [Simon
 
 I’m always open to collaborations, discussions, and new opportunities. Feel free to reach out if you're interested in my research or would like to discuss potential projects.
 
-**Research:**  My research focuses on machine (un)learning and AI safety.
+**Research:** My research focuses on machine (un)learning and AI safety.
 
-**1. Machine (un)learning.**  
+**1. Machine (un)learning.**
 
-**2. AI safety.**  
+**2. AI safety.**
 
-<!-- 
+<!--
 [comment]: <> (<details>)
 
 [comment]: <> (<summary> <b> Research Summary</b></summary>)

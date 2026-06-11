@@ -24,53 +24,53 @@
 
 [comment]: <> ({% if site.enable_project_categories and page.display_categories %})
 
-[comment]: <> (  <!-- Display categorized projects -->)
+[comment]: <> ( <!-- Display categorized projects -->)
 
-[comment]: <> (  {% for category in page.display_categories %})
+[comment]: <> ( {% for category in page.display_categories %})
 
-[comment]: <> (  <a id="{{ category }}" href=".#{{ category }}">)
+[comment]: <> ( <a id="{{ category }}" href=".#{{ category }}">)
 
-[comment]: <> (    <h2 class="category">{{ category }}</h2>)
+[comment]: <> ( <h2 class="category">{{ category }}</h2>)
 
-[comment]: <> (  </a>)
+[comment]: <> ( </a>)
 
-[comment]: <> (  {% assign categorized_projects = site.projects | where: "category", category %})
+[comment]: <> ( {% assign categorized_projects = site.projects | where: "category", category %})
 
-[comment]: <> (  {% assign sorted_projects = categorized_projects | sort: "importance" %})
+[comment]: <> ( {% assign sorted_projects = categorized_projects | sort: "importance" %})
 
-[comment]: <> (  <!-- Generate cards for each project -->)
+[comment]: <> ( <!-- Generate cards for each project -->)
 
-[comment]: <> (  {% if page.horizontal %})
+[comment]: <> ( {% if page.horizontal %})
 
-[comment]: <> (  <div class="container">)
+[comment]: <> ( <div class="container">)
 
-[comment]: <> (    <div class="row row-cols-1 row-cols-md-2">)
+[comment]: <> ( <div class="row row-cols-1 row-cols-md-2">)
 
-[comment]: <> (    {% for project in sorted_projects %})
+[comment]: <> ( {% for project in sorted_projects %})
 
-[comment]: <> (      {% include projects_horizontal.liquid %})
+[comment]: <> ( {% include projects_horizontal.liquid %})
 
-[comment]: <> (    {% endfor %})
+[comment]: <> ( {% endfor %})
 
-[comment]: <> (    </div>)
+[comment]: <> ( </div>)
 
-[comment]: <> (  </div>)
+[comment]: <> ( </div>)
 
-[comment]: <> (  {% else %})
+[comment]: <> ( {% else %})
 
-[comment]: <> (  <div class="row row-cols-1 row-cols-md-3">)
+[comment]: <> ( <div class="row row-cols-1 row-cols-md-3">)
 
-[comment]: <> (    {% for project in sorted_projects %})
+[comment]: <> ( {% for project in sorted_projects %})
 
-[comment]: <> (      {% include projects.liquid %})
+[comment]: <> ( {% include projects.liquid %})
 
-[comment]: <> (    {% endfor %})
+[comment]: <> ( {% endfor %})
 
-[comment]: <> (  </div>)
+[comment]: <> ( </div>)
 
-[comment]: <> (  {% endif %})
+[comment]: <> ( {% endif %})
 
-[comment]: <> (  {% endfor %})
+[comment]: <> ( {% endfor %})
 
 [comment]: <> ({% else %})
 
@@ -78,37 +78,37 @@
 
 [comment]: <> ({% assign sorted_projects = site.projects | sort: "importance" %})
 
-[comment]: <> (  <!-- Generate cards for each project -->)
+[comment]: <> ( <!-- Generate cards for each project -->)
 
 [comment]: <> ({% if page.horizontal %})
 
-[comment]: <> (  <div class="container">)
+[comment]: <> ( <div class="container">)
 
-[comment]: <> (    <div class="row row-cols-1 row-cols-md-2">)
+[comment]: <> ( <div class="row row-cols-1 row-cols-md-2">)
 
-[comment]: <> (    {% for project in sorted_projects %})
+[comment]: <> ( {% for project in sorted_projects %})
 
-[comment]: <> (      {% include projects_horizontal.liquid %})
+[comment]: <> ( {% include projects_horizontal.liquid %})
 
-[comment]: <> (    {% endfor %})
+[comment]: <> ( {% endfor %})
 
-[comment]: <> (    </div>)
+[comment]: <> ( </div>)
 
-[comment]: <> (  </div>)
+[comment]: <> ( </div>)
 
-[comment]: <> (  {% else %})
+[comment]: <> ( {% else %})
 
-[comment]: <> (  <div class="row row-cols-1 row-cols-md-3">)
+[comment]: <> ( <div class="row row-cols-1 row-cols-md-3">)
 
-[comment]: <> (    {% for project in sorted_projects %})
+[comment]: <> ( {% for project in sorted_projects %})
 
-[comment]: <> (      {% include projects.liquid %})
+[comment]: <> ( {% include projects.liquid %})
 
-[comment]: <> (    {% endfor %})
+[comment]: <> ( {% endfor %})
 
-[comment]: <> (  </div>)
+[comment]: <> ( </div>)
 
-[comment]: <> (  {% endif %})
+[comment]: <> ( {% endif %})
 
 [comment]: <> ({% endif %})
 

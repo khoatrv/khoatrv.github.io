@@ -1,9 +1,8 @@
-
 ---
 layout: page
 permalink: /mentoring/
 title: Mentoring
-description: 
+description:
 nav: true
 nav_order: 6
 ---
@@ -28,29 +27,28 @@ nav_order: 6
 
 [comment]: <> (profiles:)
 
-[comment]: <> (  # if you want to include more than one profile, just replicate the following block)
+[comment]: <> ( # if you want to include more than one profile, just replicate the following block)
 
-[comment]: <> (  # and create one content file for each profile inside _pages/)
+[comment]: <> ( # and create one content file for each profile inside \_pages/)
 
-[comment]: <> (  - align: right)
+[comment]: <> ( - align: right)
 
-[comment]: <> (    content: about_einstein.md)
+[comment]: <> ( content: about_einstein.md)
 
+[comment]: <> ([comment]: <> &#40; - align: left&#41;)
 
-[comment]: <> ([comment]: <> &#40;  - align: left&#41;)
+[comment]: <> ([comment]: <> &#40; image: prof_pic.jpg&#41;)
 
-[comment]: <> ([comment]: <> &#40;    image: prof_pic.jpg&#41;)
+[comment]: <> ([comment]: <> &#40; content: about_einstein.md&#41;)
 
-[comment]: <> ([comment]: <> &#40;    content: about_einstein.md&#41;)
+[comment]: <> ([comment]: <> &#40; image_circular: false # crops the image to make it circular&#41;)
 
-[comment]: <> ([comment]: <> &#40;    image_circular: false # crops the image to make it circular&#41;)
+[comment]: <> ([comment]: <> &#40; more_info: >&#41;)
 
-[comment]: <> ([comment]: <> &#40;    more_info: >&#41;)
+[comment]: <> ([comment]: <> &#40; <p>555 your office number</p>&#41;)
 
-[comment]: <> ([comment]: <> &#40;      <p>555 your office number</p>&#41;)
+[comment]: <> ([comment]: <> &#40; <p>123 your address street</p>&#41;)
 
-[comment]: <> ([comment]: <> &#40;      <p>123 your address street</p>&#41;)
-
-[comment]: <> ([comment]: <> &#40;      <p>Your City, State 12345</p>&#41;)
+[comment]: <> ([comment]: <> &#40; <p>Your City, State 12345</p>&#41;)
 
 [comment]: <> (---)
