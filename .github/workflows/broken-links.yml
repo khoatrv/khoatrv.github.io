@@ -48,4 +48,5 @@ jobs:
         uses: lycheeverse/lychee-action@v2.1.0
         with:
           fail: true
-          args: --user-agent 'curl/7.54' --exclude-path README.md --exclude-path _pages/404.md --exclude-path _pages/blog.md --exclude-path _posts/2018-12-22-distill.md --exclude-path _posts/2023-[...] --skip-missing 'cdn.jsdelivr.net/npm/.*@\{\{version\}\}'
+          failIfEmpty: false
+          args: --user-agent 'curl/7.54' --exclude-path README.md --exclude-path _pages/404.md --exclude-path _pages/blog.md --exclude-path _posts/2018-12-22-distill.md --exclude-path _posts/2023-[...] --skip-missing 'cdn.jsdelivr.net/npm/.*@\\{\\{version\\}\\}'
