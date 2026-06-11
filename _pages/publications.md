@@ -11,7 +11,7 @@ nav_order: 2
 
 <!-- Bibsearch Feature -->
 
-See [Google Scholar](https://scholar.google.com/citations?user=F9mgq3sAAAAJ&hl=en) for the most up-to-date information.
+See [Google Scholar](https://scholar.google.com/citations?hl=en&user=Akj-JPAAAAAJ) for the most up-to-date information.
 
 <!-- {% include bib_search.liquid %} -->
 
