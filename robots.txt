@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://khoatrv.github.io/sitemap.xml
