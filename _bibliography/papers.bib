@@ -2,41 +2,33 @@
 ---
 
 @article{Tran_2026_CVPR,
+    abbr = {CVPR},
     author    = {Tran, Khoa and Woo, Simon S.},
     title     = {Efficient Unlearning through Maximizing Relearning Convergence Delay},
     booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Findings},
-    month     = {June},
-    year      = {2026},
-    pages     = {7968-7977},
+    pdf       = {https://arxiv.org/pdf/2604.09391},
+    published = {true},
     selected = {true},
+    year      = {2026},
     abstract = {Machine unlearning poses challenges in removing mislabeled, contaminated, or problematic data from a pretrained model. Current unlearning approaches and evaluation metrics are solely focused on model predictions, which limits insight into the model's true underlying data characteristics. To address this issue, we introduce a new metric called relearning convergence delay, which captures both changes in weight space and prediction space, providing a more comprehensive assessment of the model's understanding of the forgotten dataset. This metric can be used to assess the risk of forgotten data being recovered from the unlearned model. Based on this, we propose the Influence Eliminating Unlearning framework, which removes the influence of the forgetting set by degrading its performance and incorporates weight decay and injecting noise into the model's weights, while maintaining accuracy on the retaining set. Extensive experiments show that our method outperforms existing metrics and our proposed relearning convergence delay metric, approaching ideal unlearning performance. We provide theoretical guarantees, including exponential convergence and upper bounds, as well as empirical evidence of strong retention and resistance to relearning in both classification and generative unlearning tasks.}
 }
 
 @article{10.1145/3701716.3715598,
+  abbr = {WWW},
   author = {Tran, Khoa and Woo, Simon S.},
   title = {Fairness and Robustness in Machine Unlearning},
   year = {2025},
+  published = {true},
   selected = {true},
-  isbn = {9798400713316},
-  publisher = {Association for Computing Machinery},
-  address = {New York, NY, USA},
-  url = {https://doi.org/10.1145/3701716.3715598},
-  doi = {10.1145/3701716.3715598},
-  abstract = {Machine unlearning poses the challenge of ''how to eliminate the influence of specific data from a pretrained model'' in regard to privacy concerns. While prior research on approximated unlearning has demonstrated accuracy and efficiency in time complexity, we claim that it falls short of achieving exact unlearning, and we are the first to focus on fairness and robustness in machine unlearning algorithms. Our study presents fairness Conjectures for a well-trained model, based on the variance-bias trade-off characteristic, and considers their relevance to robustness. Our Conjectures are supported by experiments conducted on the two most widely used model architectures-ResNet and ViT-demonstrating the correlation between fairness and robustness: the higher fairness-gap is, the more the model is sensitive and vulnerable. In addition, our experiments demonstrate the vulnerability of current state-of-the-art approximated unlearning algorithms to adversarial attacks, where their unlearned models suffer a significant drop in accuracy compared to the exact-unlearned models. We claim that our fairness-gap measurement and robustness metric should be used to evaluate the unlearning algorithm. Furthermore, we demonstrate that unlearning in the intermediate and last layers is sufficient and cost-effective for time and memory complexity.},
-  booktitle = {Companion Proceedings of the ACM on Web Conference 2025},
-  pages = {1336–1340},
-  numpages = {5},
-  keywords = {fairness, machine unlearning, robustness},
-  location = {Sydney NSW, Australia},
-  series = {WWW '25}
+  pdf = {https://arxiv.org/pdf/2504.13610},
+  abstract = {Machine unlearning poses the challenge of ''how to eliminate the influence of specific data from a pretrained model'' in regard to privacy concerns. While prior research on approximated unlearning has demonstrated accuracy and efficiency in time complexity, we claim that it falls short of achieving exact unlearning, and we are the first to focus on fairness and robustness in machine unlearning algorithms. Our study presents fairness Conjectures for a well-trained model, based on the variance-bias trade-off characteristic, and considers their relevance to robustness. Our Conjectures are supported by experiments conducted on the two most widely used model architectures-ResNet and ViT-demonstrating the correlation between fairness and robustness: the higher fairness-gap is, the more the model is sensitive and vulnerable. In addition, our experiments demonstrate the vulnerability of current state-of-the-art approximated unlearning algorithms to adversarial attacks, where their unlearned models suffer a significant drop in accuracy compared to the exact-unlearned models. We claim that our fairness-gap measurement and robustness metric should be used to evaluate the unlearning algorithm. Furthermore, we demonstrate that unlearning in the intermediate and last layers is sufficient and cost-effective for time and memory complexity.}
 }
 
 @article{hoangvan2025gaussian,
-  abbr = {Preprint},
+  abbr = {Journal},
   title={Gaussian mixture model and Bayesian convolutional neural network for abnormal musculoskeletal radiographs classification},
   author={HoangVan, Xiem and Tran Van, Khoa},
   selected = {false},
-  code={},
   pdf={https://www.researchgate.net/profile/Tran-Van-Khoa/publication/385492271_Gaussian_Mixture_Model_and_Bayesian_Convolutional_Neural_Network_for_abnormal_musculoskeletal_radiographs_classification/links/672641f877f274616d580abc/Gaussian-Mixture-Model-and-Bayesian-Convolutional-Neural-Network-for-abnormal-musculoskeletal-radiographs-classification.pdf},
   journal={Evolutionary Intelligence},
   abstract={Bayesian convolutional neural network (BCNN) has recently demonstrated its efficiency in medical image classification. In its structure,
@@ -57,6 +49,7 @@ Cohens kappa metrics while asking for negligible complexity overhead.},
 }
 
 @inproceedings{10.1145/3426020.3426056,
+  abbr = {SMA},
   author = {Khoa, Tran Van and Vinh, Dinh Quang and Phuc, Nguyen Hong and Narayan, Debnath C and Tuan-Duc, NGUYEN and Ahn, Chang Wook},
   title = {Joint Image Denoising and Colorization Using Deep Network},
   selected = {false},
