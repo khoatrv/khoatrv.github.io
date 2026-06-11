@@ -1,226 +1,76 @@
 ---
 ---
 
-@article{bansal2024medmax,
+@article{Tran_2026_CVPR,
+    author    = {Tran, Khoa and Woo, Simon S.},
+    title     = {Efficient Unlearning through Maximizing Relearning Convergence Delay},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Findings},
+    month     = {June},
+    year      = {2026},
+    pages     = {7968-7977},
+    selected = {true},
+    abstract = {Machine unlearning poses challenges in removing mislabeled, contaminated, or problematic data from a pretrained model. Current unlearning approaches and evaluation metrics are solely focused on model predictions, which limits insight into the model's true underlying data characteristics. To address this issue, we introduce a new metric called relearning convergence delay, which captures both changes in weight space and prediction space, providing a more comprehensive assessment of the model's understanding of the forgotten dataset. This metric can be used to assess the risk of forgotten data being recovered from the unlearned model. Based on this, we propose the Influence Eliminating Unlearning framework, which removes the influence of the forgetting set by degrading its performance and incorporates weight decay and injecting noise into the model's weights, while maintaining accuracy on the retaining set. Extensive experiments show that our method outperforms existing metrics and our proposed relearning convergence delay metric, approaching ideal unlearning performance. We provide theoretical guarantees, including exponential convergence and upper bounds, as well as empirical evidence of strong retention and resistance to relearning in both classification and generative unlearning tasks.}
+}
+
+@article{10.1145/3701716.3715598,
+  author = {Tran, Khoa and Woo, Simon S.},
+  title = {Fairness and Robustness in Machine Unlearning},
+  year = {2025},
+  selected = {true},
+  isbn = {9798400713316},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3701716.3715598},
+  doi = {10.1145/3701716.3715598},
+  abstract = {Machine unlearning poses the challenge of ''how to eliminate the influence of specific data from a pretrained model'' in regard to privacy concerns. While prior research on approximated unlearning has demonstrated accuracy and efficiency in time complexity, we claim that it falls short of achieving exact unlearning, and we are the first to focus on fairness and robustness in machine unlearning algorithms. Our study presents fairness Conjectures for a well-trained model, based on the variance-bias trade-off characteristic, and considers their relevance to robustness. Our Conjectures are supported by experiments conducted on the two most widely used model architectures-ResNet and ViT-demonstrating the correlation between fairness and robustness: the higher fairness-gap is, the more the model is sensitive and vulnerable. In addition, our experiments demonstrate the vulnerability of current state-of-the-art approximated unlearning algorithms to adversarial attacks, where their unlearned models suffer a significant drop in accuracy compared to the exact-unlearned models. We claim that our fairness-gap measurement and robustness metric should be used to evaluate the unlearning algorithm. Furthermore, we demonstrate that unlearning in the intermediate and last layers is sufficient and cost-effective for time and memory complexity.},
+  booktitle = {Companion Proceedings of the ACM on Web Conference 2025},
+  pages = {1336–1340},
+  numpages = {5},
+  keywords = {fairness, machine unlearning, robustness},
+  location = {Sydney NSW, Australia},
+  series = {WWW '25}
+}
+
+@article{hoangvan2025gaussian,
   abbr = {Preprint},
-  title={MedMax: Mixed-Modal Instruction Tuning for Training Biomedical Assistants},
-  author={Bansal, Hritik and Israel, Daniel and Zhao, Siyan and Li, Shufan and Nguyen, Tung and Grover, Aditya},
+  title={Gaussian mixture model and Bayesian convolutional neural network for abnormal musculoskeletal radiographs classification},
+  author={HoangVan, Xiem and Tran Van, Khoa},
   selected = {false},
-  code={https://github.com/Hritikbansal/medmax},
-  pdf={https://arxiv.org/pdf/2412.12661},
-  journal={Under Review},
-  google_scholar_id={Tiz5es2fbqcC},
-  abstract={Recent advancements in mixed-modal generative models have enabled flexible integration of information across image-text content. These models have opened new avenues for developing unified biomedical assistants capable of analyzing biomedical images, answering complex questions about them, and predicting the impact of medical procedures on a patient's health. However, existing resources face challenges such as limited data availability, narrow domain coverage, and restricted sources (e.g., medical papers). To address these gaps, we present MedMax, the first large-scale multimodal biomedical instruction-tuning dataset for mixed-modal foundation models. With 1.47 million instances, MedMax encompasses a diverse range of tasks, including multimodal content generation (interleaved image-text data), biomedical image captioning and generation, visual chatting, and report understanding. These tasks span diverse medical domains such as radiology and histopathology. Subsequently, we fine-tune a mixed-modal foundation model on the MedMax dataset, achieving significant performance improvements: a 26% gain over the Chameleon model and an 18.3% improvement over GPT-4o across 12 downstream biomedical visual question-answering tasks. Additionally, we introduce a unified evaluation suite for biomedical tasks, providing a robust framework to guide the development of next-generation mixed-modal biomedical AI assistants.},
-  year={2025}
-}
-@article{nguyen2024predicting,
-  title={Predicting from Strings: Language Model Embeddings for Bayesian Optimization},
-  author={Nguyen, Tung and Zhang, Qiuyi and Yang, Bangding and Lee, Chansoo and Bornschein, Jorg and Miao, Yingjie and Perel, Sagi and Chen, Yutian and Song, Xingyou},
-  abbr = {Preprint},
-  code={https://github.com/google-research/optformer/tree/main/optformer/embed_then_regress},
-  pdf={https://arxiv.org/pdf/2410.10190},
-  journal={Under Review},
-  selected = {true},
-  abstract = {Bayesian Optimization is ubiquitous in the field of experimental design and blackbox optimization for improving search efficiency, but has been traditionally restricted to regression models which are only applicable to fixed search spaces and tabular input features. We propose Embed-then-Regress, a paradigm for applying in-context regression over string inputs, through the use of string embedding capabilities of pretrained language models. By expressing all inputs as strings, we are able to perform general-purpose regression for Bayesian Optimization over various domains including synthetic, combinatorial, and hyperparameter optimization, obtaining comparable results to state-of-the-art Gaussian Process-based algorithms. Code can be found at https://github.com/google-research/optformer/tree/main/optformer/embed_then_regress.},
-  google_scholar_id={HoB7MX3m0LUC},
-  year={2025}
-}
-@article{yu2024climdetect,
-  title={ClimDetect: A Benchmark Dataset for Climate Change Detection and Attribution},
-  abbr = {Preprint},
-  author={Yu, Sungduk and White, Brian L and Bhiwandiwalla, Anahita and Hinck, Musashi and Olson, Matthew Lyle and Nguyen, Tung and Lal, Vasudev},
-  journal={Under Review},
-  abstract = {Detecting and attributing temperature increases due to climate change is crucial for understanding global warming and guiding adaptation strategies. The complexity of distinguishing human-induced climate signals from natural variability has challenged traditional detection and attribution (D&A) approaches, which seek to identify specific "fingerprints" in climate response variables. Deep learning offers potential for discerning these complex patterns in expansive spatial datasets. However, lack of standard protocols has hindered consistent comparisons across studies. We introduce ClimDetect, a standardized dataset of over 816k daily climate snapshots, designed to enhance model accuracy in identifying climate change signals. ClimDetect integrates various input and target variables used in past research, ensuring comparability and consistency. We also explore the application of vision transformers (ViT) to climate data, a novel and modernizing approach in this context. Our open-access data and code serve as a benchmark for advancing climate science through improved model evaluations. ClimDetect is publicly accessible via Huggingface dataet respository at: https://huggingface.co/datasets/ClimDetect/ClimDetect.},
-  code={https://huggingface.co/datasets/ClimDetect/ClimDetect2},
-  pdf = {https://arxiv.org/pdf/2408.15993},
-  google_scholar_id={2P1L_qKh6hAC},
+  code={},
+  pdf={https://www.researchgate.net/profile/Tran-Van-Khoa/publication/385492271_Gaussian_Mixture_Model_and_Bayesian_Convolutional_Neural_Network_for_abnormal_musculoskeletal_radiographs_classification/links/672641f877f274616d580abc/Gaussian-Mixture-Model-and-Bayesian-Convolutional-Neural-Network-for-abnormal-musculoskeletal-radiographs-classification.pdf},
+  journal={Evolutionary Intelligence},
+  abstract={Bayesian convolutional neural network (BCNN) has recently demonstrated its efficiency in medical image classification. In its structure,
+BCNN formulates the value of neural network (NN) weights into a
+Gaussian distribution and creates the uncertainty estimation for the
+model. However, with abnormal classification in musculoskeletal radiographs, we unveil that only a Gaussian distribution is not enough
+to capture the weight characteristics. Therefore, BCNN model may
+not be suitable for abnormal musculoskeletal radiographs classification.
+In this context, we propose a novel Gaussian mixture model-based
+BCNN (MixBCNN) for abnormal musculoskeletal radiographs classification problem. In the proposed method, the distribution of NN weights
+is represented as a Gaussian mixture distribution, expecting a new
+neural network model with better representation. In addition, we propose an ensemble learning approach to efficiently combine potential NN
+backbones, notably the Densenet121, Densenet169 and Densenet201.
+Performance evaluation is examined for the popular MURA dataset
+and shows the superiority of the proposed model with respect to stateof-the-art BCNN methods, notably by 0.86 in F1 score and 0.72 in
+Cohens kappa metrics while asking for negligible complexity overhead.},
   year={2025}
 }
 
-@article{nguyen2024lico,
-  abbr = {ICLR},
-  title={LICO: Large language models for in-context molecular optimization},
-  author={Nguyen, Tung and Grover, Aditya},
-  journal={International Conference on Learning Representations},
-  google_scholar_id={bEWYMUwI8FkC},
-  pdf={https://arxiv.org/pdf/2406.18851},
-  abstract={Optimizing black-box functions is a fundamental problem in science and engineering. To solve this problem, many approaches learn a surrogate function that estimates the underlying objective from limited historical evaluations. Large Language Models (LLMs), with their strong pattern-matching capabilities via pretraining on vast amounts of data, stand out as a potential candidate for surrogate modeling. However, directly prompting a pretrained language model to produce predictions is not feasible in many scientific domains due to the scarcity of domain-specific data in the pretraining corpora and the challenges of articulating complex problems in natural language. In this work, we introduce LICO, a general-purpose model that extends arbitrary base LLMs for black-box optimization, with a particular application to the molecular domain. To achieve this, we equip the language model with a separate embedding layer and prediction layer, and train the model to perform in-context predictions on a diverse set of functions defined over the domain. Once trained, LICO can generalize to unseen molecule properties simply via in-context prompting. LICO achieves state-of-the-art performance on PMO, a challenging molecular optimization benchmark comprising over 20 objective functions.},
-  published={true},
-  selected = {true},
-  year={2025}
-}
-@article{zhao2024probing,
-  abbr = {NeurIPS},
-  title={Probing the Decision Boundaries of In-context Learning in Large Language Models},
-  author={Zhao, Siyan and Nguyen, Tung and Grover, Aditya},
-  published={true},
-  award={Best Paper},
-  honor={Best Paper Award, Foundation Model Interventions Workshop, NeurIPS 2024},
-  code={https://github.com/siyan-zhao/ICL_decision_boundary},
-  pdf={https://proceedings.neurips.cc/paper_files/paper/2024/file/eb5dd4476448c44e55a759a985b3bbec-Paper-Conference.pdf},
-  journal={Neural Information Processing Systems},
-  selected = {true},
-  google_scholar_id={iH-uZ7U-co4C},
-  abstract={In-context learning is an emergent paradigm in large language models (LLMs) that enables them to generalize to new tasks and domains by simply prompting these models with a few exemplars without explicit parameter updates. Many attempts have been made to understand in-context learning in LLMs as a function of model scale, pretraining data, and other factors. In this work, we propose a new mechanism to probe and understand in-context learning from the lens of decision boundaries for in-context binary classification. Decision boundaries are straightforward to visualize and provide important information about the qualitative behavior of the inductive biases of standard classifiers. To our surprise, we find that the decision boundaries learned by current LLMs in simple binary classification tasks are often irregularly non-smooth, regardless of task linearity. This paper investigates the factors influencing these decision boundaries and explores methods to enhance their generalizability. We assess various approaches, including training-free and fine-tuning methods for LLMs, the impact of model architecture, and the effectiveness of active prompting techniques for smoothing decision boundaries in a data-efficient manner. Our findings provide a deeper understanding of in-context learning dynamics and offer practical improvements for enhancing robustness and generalizability of in-context learning.},
-  year={2024}
-}
-@article{nathaniel2024chaosbench,
-  abbr = {NeurIPS},
-  title={Chaosbench: A multi-channel, physics-based benchmark for subseasonal-to-seasonal climate prediction},
-  author={Nathaniel, Juan and Qu, Yongquan and Nguyen, Tung and Yu, Sungduk and Busecke, Julius and Grover, Aditya and Gentine, Pierre},
+@inproceedings{10.1145/3426020.3426056,
+  author = {Khoa, Tran Van and Vinh, Dinh Quang and Phuc, Nguyen Hong and Narayan, Debnath C and Tuan-Duc, NGUYEN and Ahn, Chang Wook},
+  title = {Joint Image Denoising and Colorization Using Deep Network},
   selected = {false},
-  published={true},
-  award={Oral},
-  honor={Oral Presentation [0.6\%]},
-  pdf={https://arxiv.org/pdf/2402.00712},
-  code={https://leap-stc.github.io/ChaosBench},
-  journal={Neural Information Processing Systems Track on Datasets and Benchmarks},
-  google_scholar_id={4JMBOYKVnBMC},
-  abstract={Accurate prediction of climate in the subseasonal-to-seasonal scale is crucial for disaster preparedness and robust decision making amidst climate change. Yet, forecasting beyond the weather timescale is challenging because it deals with problems other than initial condition, including boundary interaction, butterfly effect, and our inherent lack of physical understanding. At present, existing benchmarks tend to have shorter forecasting range of up-to 15 days, do not include a wide range of operational baselines, and lack physics-based constraints for explainability. Thus, we propose ChaosBench, a challenging benchmark to extend the predictability range of data-driven weather emulators to S2S timescale. First, ChaosBench is comprised of variables beyond the typical surface-atmospheric ERA5 to also include ocean, ice, and land reanalysis products that span over 45 years to allow for full Earth system emulation that respects boundary conditions. We also propose physics-based, in addition to deterministic and probabilistic metrics, to ensure a physically-consistent ensemble that accounts for butterfly effect. Furthermore, we evaluate on a diverse set of physics-based forecasts from four national weather agencies as baselines to our data-driven counterpart such as ViT/ClimaX, PanguWeather, GraphCast, and FourCastNetV2. Overall, we find methods originally developed for weather-scale applications fail on S2S task: their performance simply collapse to an unskilled climatology. Nonetheless, we outline and demonstrate several strategies that can extend the predictability range of existing weather emulators, including the use of ensembles, robust control of error propagation, and the use of physics-informed models. Our benchmark, datasets, and instructions are available at https://leap-stc.github.io/ChaosBench.},
-  year={2024}
-}
-
-@article{nguyen2024scaling,
-  abbr = {NeurIPS},
-  title={Scaling transformer neural networks for skillful and reliable medium-range weather forecasting},
-  author={Nguyen, Tung and Shah, Rohan and Bansal, Hritik and Arcomano, Troy and Maulik, Romit and Kotamarthi, Rao and Foster, Ian and Madireddy, Sandeep and Grover, Aditya},
-  journal={Neural Information Processing Systems},
-  selected = {true},
-  published={true},
-  award={Best Paper},
-  honor={Best Paper Award, Tackling Climate Change with Machine Learning Workshop, ICLR 2024},
-  code={https://github.com/tung-nd/stormer},
-  pdf={https://proceedings.neurips.cc/paper_files/paper/2024/file/7f19b99e63762d20e9df91144056f1ee-Paper-Conference.pdf},
-  google_scholar_id={_Qo2XoVZTnwC},
-  abstract={Weather forecasting is a fundamental problem for anticipating and mitigating the impacts of climate change. Recently, data-driven approaches for weather forecasting based on deep learning have shown great promise, achieving accuracies that are competitive with operational systems. However, those methods often employ complex, customized architectures without sufficient ablation analysis, making it difficult to understand what truly contributes to their success. Here we introduce Stormer, a simple transformer model that achieves state-of-the art performance on weather forecasting with minimal changes to the standard transformer backbone. We identify the key components of Stormer through careful empirical analyses, including weather-specific embedding, randomized dynamics forecast, and pressure-weighted loss. At the core of Stormer is a randomized forecasting objective that trains the model to forecast the weather dynamics over varying time intervals. During inference, this allows us to produce multiple forecasts for a target lead time and combine them to obtain better forecast accuracy. On WeatherBench 2, Stormer performs competitively at short to medium-range forecasts and outperforms current methods beyond 7 days, while requiring orders-of-magnitude less training data and compute. Additionally, we demonstrate Stormer’s favorable scaling properties, showing consistent improvements in forecast accuracy with increases in model size and training tokens. Code and checkpoints are available at https://github.com/tung-nd/stormer.},
-  year={2024}
-}
-
-@article{nguyen2023expt,
-  abbr = {NeurIPS},
-  title={ExPT: Synthetic Pretraining for Few-Shot Experimental Design},
-  author={Nguyen, Tung and Agrawal, Sudhanshu and Grover, Aditya},
-  journal={Neural Information Processing Systems},
-  selected = {true},
-  published={true},
-  code={https://github.com/tung-nd/ExPT},
-  pdf={https://proceedings.neurips.cc/paper_files/paper/2023/file/8fab4407e1fe9006b39180525c0d323c-Paper-Conference.pdf},
-  google_scholar_id={e5wmG9Sq2KIC},
-  abstract={Experimental design is a fundamental problem in many science and engineering fields. In this problem, sample efficiency is crucial due to the time, money, and safety costs of real-world design evaluations. Existing approaches either rely on active data collection or access to large, labeled datasets of past experiments, making them impractical in many real-world scenarios. In this work, we address the more challenging yet realistic setting of few-shot experimental design, where only a few labeled data points of input designs and their corresponding values are available. We approach this problem as a conditional generation task, where a model conditions on a few labeled examples and the desired output to generate an optimal input design. To this end, we introduce Experiment Pretrained Transformers (ExPT), a foundation model for few-shot experimental design that employs a novel combination of synthetic pretraining with in-context learning. In ExPT, we only assume knowledge of a finite collection of unlabelled data points from the input domain and pretrain a transformer neural network to optimize diverse synthetic functions defined over this domain. Unsupervised pretraining allows ExPT to adapt to any design task at test time in an in-context fashion by conditioning on a few labeled data points from the target task and generating the candidate optima. We evaluate ExPT on few-shot experimental design in challenging domains and demonstrate its superior generality and performance compared to existing methods. The source code is available at https://github.com/tung-nd/ExPT.},
-  year={2023}
-}
-
-@article{nguyen2023climatelearn,
-  abbr = {NeurIPS},
-  title={ClimateLearn: Benchmarking Machine Learning for Weather and Climate Modeling},
-  author={Nguyen*, Tung and Jewik*, Jason and Bansal, Hritik and Sharma, Prakhar and Grover, Aditya},
-  journal={Neural Information Processing Systems Track on Datasets and Benchmarks},
-  selected = {false},
-  published={true},
-  code={https://github.com/aditya-grover/climate-learn},
-  pdf={https://proceedings.neurips.cc/paper_files/paper/2023/file/ed73c36e771881b232ef35fa3a1dec14-Paper-Datasets_and_Benchmarks.pdf},
-  google_scholar_id={hC7cP41nSMkC},
-  abstract={Modeling weather and climate is an essential endeavor to understand the near- and long-term impacts of climate change, as well as inform technology and policymaking for adaptation and mitigation efforts. In recent years, there has been a surging interest in applying data-driven methods based on machine learning for solving core problems such as weather forecasting and climate downscaling. Despite promising results, much of this progress has been impaired due to the lack of large-scale, open-source efforts for reproducibility, resulting in the use of inconsistent or underspecified datasets, training setups, and evaluations by both domain scientists and artificial intelligence researchers. We introduce ClimateLearn, an open-source PyTorch library that vastly simplifies the training and evaluation of machine learning models for data-driven climate science. ClimateLearn consists of holistic pipelines for dataset processing (e.g., ERA5, CMIP6, PRISM), implementation of state-of-the-art deep learning models (e.g., Transformers, ResNets), and quantitative and qualitative evaluation for standard weather and climate modeling tasks. We supplement these functionalities with extensive documentation, contribution guides, and quickstart tutorials to expand access and promote community growth. We have also performed comprehensive forecasting and downscaling experiments to showcase the capabilities and key features of our library. To our knowledge, ClimateLearn is the first large-scale, open-source effort for bridging research in weather and climate modeling with modern machine learning systems. Our library is available publicly at https://github.com/aditya-grover/climate-learn.},
-  year={2023}
-}
-
-@article{nguyen2023climax,
-  abbr = {ICML},
-  title={ClimaX: A foundation model for weather and climate},
-  author={Nguyen, Tung and Brandstetter, Johannes and Kapoor, Ashish and Gupta, Jayesh K and Grover, Aditya},
-  journal={International Conference on Machine Learning},
-  year={2023},
-  selected = {true},
-  published={true},
-  award={Best Paper},
-  honor={Best Paper Award, Synergy of Scientific and Machine Learning Modeling Workshop, ICML 2023},
-  pdf={https://arxiv.org/pdf/2301.10343},
-  code={https://github.com/microsoft/ClimaX},
-  google_scholar_id={IWHjjKOFINEC},
-  abstract={Most state-of-the-art approaches for weather and climate modeling are based on physics-informed numerical models of the atmosphere. These approaches aim to model the non-linear dynamics and complex interactions between multiple variables, which are challenging to approximate. Additionally, many such numerical models are computationally intensive, especially when modeling the atmospheric phenomenon at a fine-grained spatial and temporal resolution. Recent data-driven approaches based on machine learning instead aim to directly solve a downstream forecasting or projection task by learning a data-driven functional mapping using deep neural networks. However, these networks are trained using curated and homogeneous climate datasets for specific spatiotemporal tasks, and thus lack the generality of numerical models. We develop and demonstrate ClimaX, a flexible and generalizable deep learning model for weather and climate science that can be trained using heterogeneous datasets spanning different variables, spatio-temporal coverage, and physical groundings. ClimaX extends the Transformer architecture with novel encoding and aggregation blocks that allow effective use of available compute while maintaining general utility. ClimaX is pre-trained with a self-supervised learning objective on climate datasets derived from CMIP6. The pre-trained ClimaX can then be fine-tuned to address a breadth of climate and weather tasks, including those that involve atmospheric variables and spatio-temporal scales unseen during pretraining. Compared to existing data-driven baselines, we show that this generality in ClimaX results in superior performance on benchmarks for weather forecasting and climate projections, even when pretrained at lower resolutions and compute budgets. The source code is available at https://github.com/microsoft/ClimaX.}
-}
-
-@article{nguyen2022transformer,
-  abbr = {ICML},
-  title={Transformer Neural Processes: Uncertainty-Aware Meta Learning Via Sequence Modeling},
-  author={Nguyen, Tung and Grover, Aditya},
-  journal={International Conference on Machine Learning},
-  year={2022},
-  selected = {true},
-  published={true},
-  pdf={https://arxiv.org/pdf/2207.04179},
-  code={https://github.com/tung-nd/TNP-pytorch},
-  google_scholar_id={QIV2ME_5wuYC},
-  abstract={Neural Processes (NPs) are a popular class of approaches for meta-learning. Similar to Gaussian Processes (GPs), NPs define distributions over functions and can estimate uncertainty in their predictions. However, unlike GPs, NPs and their variants suffer from underfitting and often have intractable likelihoods, which limit their applications in sequential decision making. We propose Transformer Neural Processes (TNPs), a new member of the NP family that casts uncertainty-aware meta learning as a sequence modeling problem. We learn TNPs via an autoregressive likelihood-based objective and instantiate it with a novel transformer-based architecture. The model architecture respects the inductive biases inherent to the problem structure, such as invariance to the observed data points and equivariance to the unobserved points. We further investigate knobs within the TNP framework that tradeoff expressivity of the decoding distribution with extra computation. Empirically, we show that TNPs achieve state-of-the-art performance on various benchmark problems, outperforming all previous NP variants on meta regression, image completion, contextual multi-armed bandits, and Bayesian optimization.}
-}
-
-@article{nguyen2022reliable,
-  abbr = {Workshop},
-  title={Reliable conditioning of behavioral cloning for offline reinforcement learning},
-  author={Nguyen, Tung and Zheng, Qinqing and Grover, Aditya},
-  journal={NeurIPS 2022 Foundation Models for Decision Making Workshop},
-  year={2022},
-  selected = {false},
-  published={true},
-  pdf={https://arxiv.org/pdf/2210.05158},
-  google_scholar_id={ZeXyd9-uunAC},
-  abstract={Behavioral cloning (BC) provides a straightforward solution to offline RL by mimicking offline trajectories via supervised learning. Recent advances (Chen et al., 2021; Janner et al., 2021; Emmons et al., 2021) have shown that by conditioning on desired future returns, BC can perform competitively to their value-based counterparts, while enjoying much more simplicity and training stability. While promising, we show that these methods can be unreliable, as their performance may degrade significantly when conditioned on high, out-of-distribution (ood) returns. This is crucial in practice, as we often expect the policy to perform better than the offline dataset by conditioning on an ood value. We show that this unreliability arises from both the suboptimality of training data and model architectures. We propose ConserWeightive Behavioral Cloning (CWBC), a simple and effective method for improving the reliability of conditional BC with two key components: trajectory weighting and conservative regularization. Trajectory weighting upweights the high-return trajectories to reduce the train-test gap for BC methods, while conservative regularizer encourages the policy to stay close to the data distribution for ood conditioning. We study CWBC in the context of RvS (Emmons et al., 2021) and Decision Transformers (Chen et al., 2021), and show that CWBC significantly boosts their performance on various benchmarks.}
-}
-
-
-@article{nguyen2021temporal,
-  abbr = {ICML},
-  title={Temporal predictive coding for model-based planning in latent space},
-  author={Nguyen*, Tung and Shu*, Rui and Pham*, Tuan and Bui, Hung and Ermon, Stefano},
-  journal={International Conference on Machine Learning},
-  year={2021},
-  selected = {false},
-  published={true},
-  pdf={http://proceedings.mlr.press/v139/nguyen21h/nguyen21h.pdf},
-  code={https://github.com/VinAIResearch/TPC-tensorflow},
-  google_scholar_id={Wp0gIr-vW9MC},
-  abstract={High-dimensional observations are a major challenge in the application of model-based reinforcement learning (MBRL) to real-world environments. To handle high-dimensional sensory inputs, existing approaches use representation learning to map high-dimensional observations into a lower-dimensional latent space that is more amenable to dynamics estimation and planning. In this work, we present an information-theoretic approach that employs temporal predictive coding to encode elements in the environment that can be predicted across time. Since this approach focuses on encoding temporally-predictable information, we implicitly prioritize the encoding of task-relevant components over nuisance information within the environment that are provably task-irrelevant. By learning this representation in conjunction with a recurrent state space model, we can then perform planning in latent space. We evaluate our model on a challenging modification of standard DMControl tasks where the background is replaced with natural videos that contain complex but irrelevant information to the planning task. Our experiments show that our model is superior to existing methods in the challenging complex-background setting while remaining competitive with current state-of-the-art models in the standard setting.}
-}
-
-@article{shu2020predictive,
-  abbr = {ICML},
-  title={Predictive coding for locally-linear control},
-  author={Shu, Rui and Nguyen*, Tung and Chow, Yinlam and Pham, Tuan and Than, Khoat and Ghavamzadeh, Mohammad and Ermon, Stefano and Bui, Hung},
-  journal={International Conference on Machine Learning},
-  year={2020},
-  selected = {false},
-  published={true},
-  pdf={http://proceedings.mlr.press/v119/shu20a/shu20a.pdf},
-  code={https://github.com/VinAIResearch/PC3-pytorch},
-  google_scholar_id={mVmsd5A6BfQC},
-  abstract={High-dimensional observations and unknown dynamics are major challenges when applying optimal control to many real-world decision making tasks. The Learning Controllable Embedding (LCE) framework addresses these challenges by embedding the observations into a lower dimensional latent space, estimating the latent dynamics, and then performing control directly in the latent space. To ensure the learned latent dynamics are predictive of next-observations, all existing LCE approaches decode back into the observation space and explicitly perform next-observation prediction—a challenging high-dimensional task that furthermore introduces a large number of nuisance parameters (ie, the decoder) which are discarded during control. In this paper, we propose a novel information-theoretic LCE approach and show theoretically that explicit next-observation prediction can be replaced with predictive coding. We then use predictive coding to develop a decoder-free LCE model whose latent dynamics are amenable to locally-linear control. Extensive experiments on benchmark tasks show that our model reliably learns a controllable latent space that leads to superior performance when compared with state-of-the-art LCE baselines.}
-}
-
-@article{nguyen2019infinite,
-  abbr = {IEEE Big Data},
-  title={Infinite dropout for training bayesian models from data streams},
-  author={Nguyen, Van-Son and Nguyen, Tung and Van, Linh Ngo and Than, Khoat},
-  journal={IEEE International Conference on Big Data},
-  year={2019},
-  selected = {false},
-  published={true},
-  pdf={https://ieeexplore.ieee.org/iel7/8986695/9005444/09005544.pdf},
-  google_scholar_id={aqlVkmm33-oC},
-  abstract={The ability to continuously train Bayesian models in
-    streaming environments is highly important in the era of big data.
-    However, it has to face the famous stability-plasticity dilemma
-    and the problem of noisy and sparse data. We propose a novel and
-    easy-to-implement framework, called Infinite Dropout (iDropout),
-    to address these challenges. iDropout has an easy mechanism to
-    balance between old and new information, which allows models
-    to trade off stability against plasticity. Thanks to the ability to
-    reduce overfitting and the ensemble property of Dropout, our
-    framework obtains better generalization, thus effectively handles
-    undesirable effects of noise and sparsity. Further, iDropout is
-    able to adapt quickly to abnormal changes in data streams. We
-    theoretically analyze the equivalence of Dropout in iDropout to
-    a regularizer, well applied to a much larger context than what
-    was known before. Extensive experiments show that iDropout
-    significantly outperforms the state-of-the-art baselines.
-  }
+  year = {2021},
+  isbn = {9781450389259},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3426020.3426056},
+  doi = {10.1145/3426020.3426056},
+  abstract = {This paper significantly enhances from the work [1] and proposes a deep neural network that solves the denoising and colorization problem simultaneously. The joint problem is solved by two separate sub-networks that are trained in an end-to-end manner. Specifically, map attention modules are used to revise feature maps, while a few convolutional layers to extract features at the beginning of the network helps to boost the proposed network significantly. We use KITTI dataset to prepare training and testing datasets. In addition, we compare the proposed method with the baseline method using the PSNR and SSIM metrics. To have a fair comparison, we train the proposed and baseline methods using the same dataset, loss function, and training configurations. The experimental results show that the proposed method performed significantly better the baseline method in the KITTI dataset.},
+  booktitle = {The 9th International Conference on Smart Media and Applications},
+  pages = {147–153},
+  numpages = {7},
+  keywords = {colorization, deep network, image denoising},
+  location = {Jeju, Republic of Korea},
+  series = {SMA 2020}
 }

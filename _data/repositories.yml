@@ -1,13 +1,7 @@
 #github_users:
-#  - tung-nd
+#  - khoatrv
 
 repo_description_lines_max: 2
 
 github_repos:
-  - microsoft/ClimaX
-  - tung-nd/stormer
-  - aditya-grover/climate-learn
-  - tung-nd/TNP-pytorch
-  - tung-nd/ExPT
-  - VinAIResearch/TPC-tensorflow
-  - VinAIResearch/PC3-pytorch
+

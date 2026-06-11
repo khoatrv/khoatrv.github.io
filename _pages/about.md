@@ -6,7 +6,7 @@ subtitle:
 
 profile:
   align: right
-  image: tung.jpg
+  image: khoa.jpg
   image_circular: false # crops the image to make it circular
 
   more_info: >
@@ -22,16 +22,15 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I’m a final-year PhD candidate in Computer Science at UCLA, advised by [Aditya Grover](https://aditya-grover.github.io/). I earned my Bachelor's degree in Computer Science from the Hanoi University of Science and Technology. Prior to my PhD, I spent two wonderful years at VinAI Research as an AI Resident, where I had the privilege of working under the supervision of [Hung Bui](https://sites.google.com/site/buihhung/) and collaborating with amazing colleagues like [Rui Shu](https://ruishu.io/) and [Tuan Pham](https://scholar.google.com/citations?user=CmbSBmQAAAAJ&hl=en). **I’m currently looking for full-time Research Scientist roles in industry (start: Summer 2026).**
+I’m a second-year PhD candidate in Computer Science at SKKU, advised by [Simon S. Woo](https://dash-lab.github.io/Professor). I earned my Bachelor's degree in Robotics Engineering from the Vietnam National University.
 
 I’m always open to collaborations, discussions, and new opportunities. Feel free to reach out if you're interested in my research or would like to discuss potential projects.
 
-**Research:**  My research focuses on building large-scale foundation models for scientific simulation and reasoning, particularly in areas related to climate change, sustainability, and the physical sciences.
+**Research:**  My research focuses on machine (un)learning and AI safety.
 
-**1. AI for Scientific Simulation.**  I develop machine learning models to simulate real-world phenomena such as weather and climate dynamics using large-scale scientific datasets. These models aim to be accurate, adaptable, and capable of representing uncertainty in complex systems.
+**1. Machine (un)learning.**  
 
-**2. AI for Experimental Design.**  I also work on using AI to solve optimization problems in scientific and engineering domains, such as molecular design and drug discovery. My goal is to build generalizable models that can perform across tasks with limited supervision, offering efficient and robust tools for real-world scientific discovery.
-
+**2. AI safety.**  
 
 <!-- 
 [comment]: <> (<details>)

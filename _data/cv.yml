@@ -2,7 +2,7 @@
   type: map
   contents:
     - name: Full Name
-      value: Tung Nguyen
+      value: Khoa Tran
     - name: Languages
       value: English, Vietnamese
 
@@ -10,58 +10,58 @@
   type: time_table
   contents:
     - title: Ph.D. Student in Computer Science
-      institution: University of California, Los Angeles, USA
-      year: 2021-Now
+      institution: Sungkyunkwan University, S. Korea
+      year: 2024-Now
       description:
-        - Advised by Professor <a href="https://aditya-grover.github.io/">Aditya Grover</a>
-    - title: B.Sc in Computer Science
-      institution: Hanoi Univeristy of Science and Technology, Hanoi, Vietnam
-      year: 2015-2020
+        - Advised by Professor <a href="https://dash-lab.github.io/Professor">Simon S. Woo</a>
+    - title: B.Sc in Robotics Engineering
+      institution: Vietnam National University, Hanoi, Vietnam
+      year: 2018-2023
       description:
         - Excellence Degree (Top 1%) (5 years program)
         - Thesis "Predictive Coding for Locally-Linear Control"
 
-- title: Experience
-  type: time_table
-  contents:
-    - title: Student Researcher
-      institution: Google Deepmind
-      year: Summer 2024
-      description:
-        - Advised by <a href="https://xingyousong.github.io/">Xingyou (Richard) Song</a>
+# - title: Experience
+#   type: time_table
+#   contents:
+#     - title: Student Researcher
+#       institution: Google Deepmind
+#       year: Summer 2024
+#       description:
+#         - Advised by <a href="https://xingyousong.github.io/">Xingyou (Richard) Song</a>
 
-    - title: Research Intern
-      institution: Microsoft Research
-      year: Summer 2022
-      description:
-        - Advised by <a href="https://scholar.google.com/citations?user=4D1n8scAAAAJ&hl=en">Ashish Kapoor</a> and <a href="https://rejuvyesh.com/">Jayesh Gupta</a>
+#     - title: Research Intern
+#       institution: Microsoft Research
+#       year: Summer 2022
+#       description:
+#         - Advised by <a href="https://scholar.google.com/citations?user=4D1n8scAAAAJ&hl=en">Ashish Kapoor</a> and <a href="https://rejuvyesh.com/">Jayesh Gupta</a>
 
-    - title: AI Research Resident
-      institution: VinAI Research
-      year: 2019-2021
-      description:
-        - Advised by Dr. <a href="https://sites.google.com/site/buihhung/">Hung Bui</a> (Director)
+#     - title: AI Research Resident
+#       institution: VinAI Research
+#       year: 2019-2021
+#       description:
+#         - Advised by Dr. <a href="https://sites.google.com/site/buihhung/">Hung Bui</a> (Director)
 
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 2024
-      items:
-        - Outstanding Graduate Student Research Award
-        - NeurIPS 2024 Travel Grant
-    - year: 2023
-      items:
-        - Amazon Student Doctoral Fellowship
-        - NeurIPS 2023 Travel Grant
-    - year: 2022
-      items:
-        - ICML 2022 Travel Grant
-    - year: 2020
-      items:
-        - Best Undergraduate Thesis Award
+# - title: Honors and Awards
+#   type: time_table
+#   contents:
+#     - year: 2024
+#       items:
+#         - Outstanding Graduate Student Research Award
+#         - NeurIPS 2024 Travel Grant
+#     - year: 2023
+#       items:
+#         - Amazon Student Doctoral Fellowship
+#         - NeurIPS 2023 Travel Grant
+#     - year: 2022
+#       items:
+#         - ICML 2022 Travel Grant
+#     - year: 2020
+#       items:
+#         - Best Undergraduate Thesis Award
 
 - title: Professional Services
   type: list
   contents:
-    - <u>Conference Reviewer:</u> ICML (2021-2025), NeurIPS (2021, 2022, 2024), ICLR (2022, 2024, 2025), AAAI (2025).
+    - <u>Conference Reviewer:</u> ICML (2025-2026), NeurIPS (2025-2026), ICLR (2025-2026), AAAI (2025-2026).
