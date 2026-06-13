@@ -26,11 +26,53 @@ I’m a second-year PhD candidate in Computer Science at SKKU, advised by [Simon
 
 I’m always open to collaborations, discussions, and new opportunities. Feel free to reach out if you're interested in my research or would like to discuss potential projects.
 
-**Research:** My research focuses on machine (un)learning and AI safety.
+**Research:** My research focuses on machine (un)learning, AI safety and physical AI.
+
+<div markdown="1" style="position: relative;">
 
 **1. Machine (un)learning.**
+Understanding <span id="mu1" style="color: #e67e22">machine (un)learning</span> is still far behind its rapid application. What's wrong? Nothing. Science takes time, I believe in [slow-science](http://slow-science.org/). I enjoy exploring the fundamentals behind how models learn, forget, and retain knowledge.
 
 **2. AI safety.**
+I work on practical AI safety problems, particularly <span id="mu2" style="color: #e67e22">machine unlearning</span> and <span style="color: #2980b9">the detection of <span id="ai1" style="color: #2980b9">AI-generated</span> or manipulated content</span>.
+
+**3. Physical AI.**
+I am interested in how physical cues—such as motion, dynamics, and consistency—can help us better understand and <span id="ai2" style="color: #2980b9">detect AI-generated content</span>.
+
+<svg id="mu-svg" style="position:absolute;top:0;left:0;width:100%;height:100%;overflow:visible;pointer-events:none;z-index:-1;opacity:0.4;" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="mu-arr" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0,8 3,0 6" fill="#e67e22"/>
+    </marker>
+    <marker id="ai-arr" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0,8 3,0 6" fill="#2980b9"/>
+    </marker>
+  </defs>
+  <line id="mu-line" stroke="#e67e22" stroke-width="2" marker-end="url(#mu-arr)"/>
+  <line id="ai-line" stroke="#2980b9" stroke-width="2" marker-end="url(#ai-arr)"/>
+</svg>
+
+</div>
+
+<script>
+(function(){
+  function drawArrow(id1,id2,lineId,svgId){
+    var e1=document.getElementById(id1),e2=document.getElementById(id2),line=document.getElementById(lineId),svg=document.getElementById(svgId);
+    if(!e1||!e2||!line||!svg)return;
+    var wr=svg.parentElement.getBoundingClientRect(),r1=e1.getBoundingClientRect(),r2=e2.getBoundingClientRect();
+    line.setAttribute('x1',r1.left-wr.left+r1.width/2);
+    line.setAttribute('y1',r1.bottom-wr.top);
+    line.setAttribute('x2',r2.left-wr.left+r2.width/2);
+    line.setAttribute('y2',r2.top-wr.top-5);
+  }
+  function draw(){
+    drawArrow('mu1','mu2','mu-line','mu-svg');
+    drawArrow('ai1','ai2','ai-line','mu-svg');
+  }
+  if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',function(){setTimeout(draw,100)});}else{setTimeout(draw,100);}
+  window.addEventListener('resize',draw);
+})();
+</script>
 
 <!--
 [comment]: <> (<details>)

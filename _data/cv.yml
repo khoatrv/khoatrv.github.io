@@ -18,8 +18,7 @@
       institution: Vietnam National University, Hanoi, Vietnam
       year: 2018-2023
       description:
-        - Excellence Degree (Top 1%) (5 years program)
-        - Thesis "Predictive Coding for Locally-Linear Control"
+        - Thesis "Mixture Gaussian Bayesian neural network for abnormal musculoskeletal classification"
 
 # - title: Experience
 #   type: time_table
@@ -63,4 +62,5 @@
 - title: Professional Services
   type: list
   contents:
-    - <u>Conference Reviewer:</u> ICML (2025-2026), NeurIPS (2025-2026), ICLR (2025-2026), AAAI (2025-2026).
+    - <u>Conference Reviewer:</u> ICML (2026), KDD (2026), NeurIPS (2025), ACM ASIACCS (2025).
+    - <u>Technical Committee:</u> ACM ASIACCS (2025).
