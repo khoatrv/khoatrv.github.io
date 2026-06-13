@@ -16,13 +16,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-mentoring",
-          title: "Mentoring",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/mentoring/";
-          },
         },{id: "nav-cv",
           title: "CV",
           description: "",
@@ -54,6 +47,9 @@ ninja.data = [{
         },
       },{id: "news-started-my-phd-at-skku-working-with-simon-s-woo",
           title: 'Started my PhD at SKKU, working with Simon S. Woo!',
+          description: "",
+          section: "News",},{id: "news-one-journal-paper-got-accepted-at-evolutionary-intelligence",
+          title: 'One journal paper got accepted at Evolutionary Intelligence.',
           description: "",
           section: "News",},{id: "news-one-short-paper-got-accepted-at-www-2025",
           title: 'One short paper got accepted at WWW 2025.',
