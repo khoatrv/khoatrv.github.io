@@ -22,7 +22,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I’m a second-year PhD candidate in Computer Science at SKKU, advised by [Simon S. Woo](https://dash-lab.github.io/Professor). I earned my Bachelor's degree in Robotics Engineering from the Vietnam National University.
+I’m a second-year PhD candidate in Computer Science at SKKU, advised by Prof. [Simon S. Woo](https://dash-lab.github.io/Professor). I earned my Bachelor's degree in Robotics Engineering from the Vietnam National University.
 
 I’m always open to collaborations, discussions, and new opportunities. Feel free to reach out if you're interested in my research or would like to discuss potential projects.
 
