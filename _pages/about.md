@@ -44,12 +44,18 @@ I am interested in how physics cuesâ€”such as motion, dynamics, and consistencyâ
     <marker id="mu-arr" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
       <polygon points="0 0,8 3,0 6" fill="#e67e22"/>
     </marker>
+    <marker id="mu-arr-start" markerWidth="8" markerHeight="6" refX="1" refY="3" orient="auto-start-reverse">
+      <polygon points="0 0,8 3,0 6" fill="#e67e22"/>
+    </marker>
     <marker id="ai-arr" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
       <polygon points="0 0,8 3,0 6" fill="#2980b9"/>
     </marker>
+    <marker id="ai-arr-start" markerWidth="8" markerHeight="6" refX="1" refY="3" orient="auto-start-reverse">
+      <polygon points="0 0,8 3,0 6" fill="#2980b9"/>
+    </marker>
   </defs>
-  <line id="mu-line" stroke="#e67e22" stroke-width="2" marker-end="url(#mu-arr)"/>
-  <line id="ai-line" stroke="#2980b9" stroke-width="2" marker-end="url(#ai-arr)"/>
+  <line id="mu-line" stroke="#e67e22" stroke-width="2" marker-end="url(#mu-arr)" marker-start="url(#mu-arr-start)"/>
+  <line id="ai-line" stroke="#2980b9" stroke-width="2" marker-end="url(#ai-arr)" marker-start="url(#ai-arr-start)"/>
 </svg>
 
 </div>
