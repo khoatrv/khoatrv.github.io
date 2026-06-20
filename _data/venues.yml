@@ -10,7 +10,7 @@
 
 "CVPR":
   url: https://cvpr.thecvf.com/
-  color: "#91917c"
+  color: "#009f36"
 
 "AISTATS":
   url: https://aistats.org/
@@ -26,7 +26,7 @@
 
 "ICML Workshop":
   url: https://icml.cc/
-  color: "#636C4E"
+  color: "#91917c"
 
 "ICLR":
   url: https://iclr.cc/

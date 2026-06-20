@@ -26,7 +26,7 @@ I’m a second-year PhD candidate in Computer Science at SKKU, advised by Prof. 
 
 I’m always open to collaborations, discussions, and new opportunities. Feel free to reach out if you're interested in my research or would like to discuss potential projects.
 
-**Research:** My research focuses on machine (un)learning, AI safety and physical AI.
+**Research:** My research focuses on machine (un)learning, AI safety and physics AI.
 
 <div markdown="1" style="position: relative;">
 
@@ -36,8 +36,8 @@ Understanding <span id="mu1" style="color: #e67e22">machine (un)learning</span> 
 **2. AI safety.**
 I work on practical AI safety problems, particularly <span id="mu2" style="color: #e67e22">machine unlearning</span> and <span style="color: #2980b9">the detection of <span id="ai1" style="color: #2980b9">AI-generated</span> or manipulated content</span>.
 
-**3. Physical AI.**
-I am interested in how physical cues—such as motion, dynamics, and consistency—can help us better understand and <span id="ai2" style="color: #2980b9">detect AI-generated content</span>.
+**3. Physics AI.**
+I am interested in how physics cues—such as motion, dynamics, and consistency—can help us better understand and <span id="ai2" style="color: #2980b9">detect AI-generated content</span>.
 
 <svg id="mu-svg" style="position:absolute;top:0;left:0;width:100%;height:100%;overflow:visible;pointer-events:none;z-index:-1;opacity:0.4;" xmlns="http://www.w3.org/2000/svg">
   <defs>

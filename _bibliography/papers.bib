@@ -1,27 +1,56 @@
 ---
 ---
 
-@article{Tran_2026_CVPR,
+@inproceedings{10.1145/3805622.3812607,
+abbr = {ICMR},
+author = {Muneer, Muhammad Shahid and Tran, Khoa Van and Nguyen, Van Tuan and Woo, Simon S.},
+title = {MOSAIV: Multi-Agent LLM Swarms for Automated Multimedia News Verification: Fake News Detection},
+year = {2026},
+isbn = {9798400726170},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3805622.3812607},
+doi = {10.1145/3805622.3812607},
+abstract = {Verifying social media content from active conflict zones requires rapid geolocation, source attribution, forensic analysis, and multi-platform verification—tasks that overwhelm individual analysts at scale. We present Multi-agent OSINT Swarm for Automated Information Verification (MOSAIV), a three-stage agentic swarm built on Large Language Models (LLMs) for automated multimedia news verification. MOSAIV operates in three sequential phases: (1)&nbsp;a Prime Agent use 50 labeled training samples via few-shot in-context learning to produce a shared context document and a reusable 7-step verification skill specification; (2)&nbsp;multiple parallel Verification Agents each process social media posts using the primed skill, performing live web searches, OSINT analysis, and structured report generation; and (3)&nbsp;a dedicated Localization Agent independently verifies GPS coordinates and produces bounding-box-annotated evidence images, dual-panel OpenStreetMap location cards, and live source evidence thumbnails, multiple evidence artifacts per run in total. We evaluated 10 conflict-zone validation cases provided by the MV2026 challenge. MOSAIV achieves 10/10 precise GPS coordinates, 100\% forensic analysis coverage, and an average of 8.1 independent sources per report, demonstrating that few-shot priming and agent swarms are critical for high-quality automated OSINT verification. We further conduct the first systematic model-capability scaling study across six Claude variants, identifying GPS precision, forensic completeness, and propaganda context detection.},
+booktitle = {Proceedings of the 2026 International Conference on Multimedia Retrieval},
+pages = {2892–2896},
+numpages = {5},
+keywords = {Multi-Agent Systems, Auto Fact Checking, Multimedia Verification},
+series = {ICMR '26}
+}
+
+@InProceedings{Tran_2026_CVPR,
     abbr = {CVPR},
+    selected = {true},
+    published = {true},
     author    = {Tran, Khoa and Woo, Simon S.},
     title     = {Efficient Unlearning through Maximizing Relearning Convergence Delay},
     booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Findings},
-    pdf       = {https://arxiv.org/pdf/2604.09391},
-    published = {true},
-    selected = {true},
+    month     = {June},
     year      = {2026},
+    pages     = {7968-7977},
     abstract = {Machine unlearning poses challenges in removing mislabeled, contaminated, or problematic data from a pretrained model. Current unlearning approaches and evaluation metrics are solely focused on model predictions, which limits insight into the model's true underlying data characteristics. To address this issue, we introduce a new metric called relearning convergence delay, which captures both changes in weight space and prediction space, providing a more comprehensive assessment of the model's understanding of the forgotten dataset. This metric can be used to assess the risk of forgotten data being recovered from the unlearned model. Based on this, we propose the Influence Eliminating Unlearning framework, which removes the influence of the forgetting set by degrading its performance and incorporates weight decay and injecting noise into the model's weights, while maintaining accuracy on the retaining set. Extensive experiments show that our method outperforms existing metrics and our proposed relearning convergence delay metric, approaching ideal unlearning performance. We provide theoretical guarantees, including exponential convergence and upper bounds, as well as empirical evidence of strong retention and resistance to relearning in both classification and generative unlearning tasks.}
 }
 
-@article{10.1145/3701716.3715598,
-  abbr = {WWW},
-  author = {Tran, Khoa and Woo, Simon S.},
-  title = {Fairness and Robustness in Machine Unlearning},
-  year = {2025},
-  published = {true},
-  selected = {true},
-  pdf = {https://arxiv.org/pdf/2504.13610},
-  abstract = {Machine unlearning poses the challenge of ''how to eliminate the influence of specific data from a pretrained model'' in regard to privacy concerns. While prior research on approximated unlearning has demonstrated accuracy and efficiency in time complexity, we claim that it falls short of achieving exact unlearning, and we are the first to focus on fairness and robustness in machine unlearning algorithms. Our study presents fairness Conjectures for a well-trained model, based on the variance-bias trade-off characteristic, and considers their relevance to robustness. Our Conjectures are supported by experiments conducted on the two most widely used model architectures-ResNet and ViT-demonstrating the correlation between fairness and robustness: the higher fairness-gap is, the more the model is sensitive and vulnerable. In addition, our experiments demonstrate the vulnerability of current state-of-the-art approximated unlearning algorithms to adversarial attacks, where their unlearned models suffer a significant drop in accuracy compared to the exact-unlearned models. We claim that our fairness-gap measurement and robustness metric should be used to evaluate the unlearning algorithm. Furthermore, we demonstrate that unlearning in the intermediate and last layers is sufficient and cost-effective for time and memory complexity.}
+@inproceedings{10.1145/3701716.3715598,
+abbr = {WWW},
+selected = {true},
+published = {true},
+author = {Tran, Khoa and Woo, Simon S.},
+title = {Fairness and Robustness in Machine Unlearning},
+year = {2025},
+isbn = {9798400713316},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3701716.3715598},
+doi = {10.1145/3701716.3715598},
+abstract = {Machine unlearning poses the challenge of ''how to eliminate the influence of specific data from a pretrained model'' in regard to privacy concerns. While prior research on approximated unlearning has demonstrated accuracy and efficiency in time complexity, we claim that it falls short of achieving exact unlearning, and we are the first to focus on fairness and robustness in machine unlearning algorithms. Our study presents fairness Conjectures for a well-trained model, based on the variance-bias trade-off characteristic, and considers their relevance to robustness. Our Conjectures are supported by experiments conducted on the two most widely used model architectures-ResNet and ViT-demonstrating the correlation between fairness and robustness: the higher fairness-gap is, the more the model is sensitive and vulnerable. In addition, our experiments demonstrate the vulnerability of current state-of-the-art approximated unlearning algorithms to adversarial attacks, where their unlearned models suffer a significant drop in accuracy compared to the exact-unlearned models. We claim that our fairness-gap measurement and robustness metric should be used to evaluate the unlearning algorithm. Furthermore, we demonstrate that unlearning in the intermediate and last layers is sufficient and cost-effective for time and memory complexity.},
+booktitle = {Companion Proceedings of the ACM on Web Conference 2025},
+pages = {1336–1340},
+numpages = {5},
+keywords = {fairness, machine unlearning, robustness},
+location = {Sydney NSW, Australia},
+series = {WWW '25}
 }
 
 @article{hoangvan2025gaussian,
@@ -67,3 +96,5 @@ Cohens kappa metrics while asking for negligible complexity overhead.},
   location = {Jeju, Republic of Korea},
   series = {SMA 2020}
 }
+
+
